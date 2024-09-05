@@ -36,7 +36,7 @@ function App() {
           />
           <button className='button' onClick={handleGenerateImage}>Generate Image</button>
           <p>
-            <img src={imageUrl}> className="generated-image"</img>
+            <img src={imageUrl} className="generated-image"></img>
           </p>
         </div>
       </header>
